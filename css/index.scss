@@ -1,6 +1,6 @@
 /*11111111111111111111111111111111111111111111111111111111111111111*/
 @mixin userrem ($size){
-	$shebei-list:320px,360px,384px,375px,411px,414px,435px,768px,800px,1280px,1600px;
+	$shebei-list:320px,360px,384px,375px,411px,414px,435px,699px,640px,768px,800px,1280px,1600px;
 	html{
 		@each $shebei in $shebei-list{
 			@media screen and( min-width: $shebei ){
@@ -9,7 +9,7 @@
 		}
 	}
 }
-@include userrem(320px)
+@include userrem(320px);
 /*===============================================================*/
 body{
 	padding:0;
