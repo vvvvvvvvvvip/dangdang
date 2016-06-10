@@ -32,7 +32,7 @@ section{
 }
 #header{
 	height: 0.45rem;
-	border-bottom:1px solid #e4e4e4;
+	border-bottom:0.01rem solid #e4e4e4;
 	position: relative;
 	background-color: #fff;
 	font-size: 0.14rem;
@@ -194,7 +194,7 @@ section{
 	.secskill{
 		margin-top: 0.05rem;
 		padding: 0 0.05rem;
-		height: 158px;
+		height: 1.58rem;
 		.secskill-box{
 			width: 100%;
 			height: 100%;
@@ -379,7 +379,7 @@ section{
 				height: 0.34rem;
 				font-size: 0.15rem;
 				color: #4d525d;
-				font-size: 15px;
+				font-size: 0.15rem;
 			}
 		}
 		ul{
@@ -449,7 +449,7 @@ section{
 	    		line-height: 0.14rem;
 	    		color: #4d525d;
 	    		position: absolute;
-                left: -1px;
+                left: -0.01rem;
 	    	}
 	    	.price{
 	    		display: block;
@@ -459,8 +459,8 @@ section{
 	    		font-size: 0.095rem;
 	    		color:#fe435d;
 	    		position: absolute;
-                bottom: -2px;
-                left: -3px;            
+                bottom: -0.02rem;
+                left: 0.03rem;            
 	    	}
 	    }
 	}
@@ -474,10 +474,10 @@ section{
 		right: 0.1rem;
 		top: 0.1rem;
 		display: inline-block;
-		width: 25px;
-		height: 25px;
+		width: 0.25rem;
+		height: 0.25rem;
 		background: url(../images/close.png) no-repeat center center;
-		background-size: 25px 25px;
+		background-size: 0.25rem 0.25rem;
 	}
 	.left,.right{
 		display: block;
@@ -519,8 +519,8 @@ section{
 	.sf{
 		width: 100%;
 		height: 0.44rem;
-		border-top:1px solid #e5e5e5;
-		border-bottom:1px solid #e5e5e5;
+		border-top:0.01rem solid #e5e5e5;
+		border-bottom:0.01rem solid #e5e5e5;
 	    color: #4d525d;
 		.ft{
 			a{
@@ -590,7 +590,7 @@ section{
     }
     .swiper-slide {
         text-align: center;
-        font-size: 18px;
+        font-size: 0.18rem;
         background: #fff;
         display: -webkit-box;
         display: -ms-flexbox;
